@@ -362,6 +362,21 @@ DHCP = [
         "hostname": "tado*"
     },
     {
+        "domain": "tesla_wall_connector",
+        "hostname": "teslawallconnector_*",
+        "macaddress": "DC44271*"
+    },
+    {
+        "domain": "tesla_wall_connector",
+        "hostname": "teslawallconnector_*",
+        "macaddress": "98ED5C*"
+    },
+    {
+        "domain": "tesla_wall_connector",
+        "hostname": "teslawallconnector_*",
+        "macaddress": "4CFCAA*"
+    },
+    {
         "domain": "toon",
         "hostname": "eneco-*",
         "macaddress": "74C63B*"
