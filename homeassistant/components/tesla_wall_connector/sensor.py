@@ -120,7 +120,7 @@ WALL_CONNECTOR_SENSORS = [
         entity_category=ENTITY_CATEGORY_DIAGNOSTIC,
     ),
     WallConnectorSensorDescription(
-        key="energy_kWh",
+        key="energy_Wh",
         name=prefix_entity_name("Energy"),
         native_unit_of_measurement=ENERGY_WATT_HOUR,
         value_fn=lambda data: data[WALLCONNECTOR_DATA_LIFETIME].energy_wh,
